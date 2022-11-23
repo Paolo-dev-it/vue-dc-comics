@@ -102,6 +102,6 @@
     .img-style {
         width: 40%;
         position: absolute;
-        right: 10px;
+        right: 0;
     }
 </style>
