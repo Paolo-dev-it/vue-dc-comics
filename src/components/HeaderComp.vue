@@ -37,7 +37,7 @@ export default {
   justify-content: space-between;
   width: 80%;
   margin: 0 auto;
-  padding: 20px;
+  padding: 10px;
 }
 
 .img-style {
