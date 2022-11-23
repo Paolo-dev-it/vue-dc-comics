@@ -1,13 +1,23 @@
 <template>
     <div>
 
+        <FooterListComp />
+        <FooterCtaComp />
+
     </div>
 </template>
 
 <script>
-    export default {
-        
+import FooterListComp from './FooterListComp.vue'
+import FooterCtaComp from './FooterCtaComp.vue'
+
+export default {
+    name: "FooterComp",
+    components: {
+        FooterListComp,
+        FooterCtaComp,
     }
+} 
 </script>
 
 <style lang="scss" scoped>

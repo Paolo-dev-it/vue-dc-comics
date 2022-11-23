@@ -17,6 +17,8 @@
 .container{
     width: 100%;
     background-color: black;
+    position: relative;
+    z-index: 1;
 }
 
 .container-dim{
@@ -24,6 +26,7 @@
     margin: auto;
     padding: 30px;
     background-color: black;
+    
 }
 
 h3 {

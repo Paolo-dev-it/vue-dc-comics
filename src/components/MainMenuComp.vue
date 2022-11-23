@@ -38,8 +38,10 @@
 <style lang="scss" scoped>
 .cont-menu {
     width: 100%;
-    
+    z-index: 1;
     background-color: #0082F9;
+    position: relative;
+    z-index: 1;
 }
 
 .cont-menu-dim {
