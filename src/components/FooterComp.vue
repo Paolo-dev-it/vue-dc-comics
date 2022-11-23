@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="container">
 
         <FooterListComp />
         <FooterCtaComp />
@@ -21,5 +21,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+.container {
+    
+}
 </style>

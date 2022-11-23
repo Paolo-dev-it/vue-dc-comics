@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="container">
 
         <MainContentComp />
         <MainMenuComp/>
@@ -21,5 +21,7 @@
 </script>
 
 <style lang="scss" scoped>
-
+.container{
+    
+}
 </style>

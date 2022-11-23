@@ -16,9 +16,12 @@
 <style lang="scss" scoped>
 .container{
     width: 100%;
+    height: 15vh;
     background-color: black;
     position: relative;
     z-index: 1;
+    display: flex;
+    align-items: center;
 }
 
 .container-dim{
@@ -26,10 +29,11 @@
     margin: auto;
     padding: 30px;
     background-color: black;
-    
 }
 
 h3 {
     color: white;
+    
+    
 }
 </style>

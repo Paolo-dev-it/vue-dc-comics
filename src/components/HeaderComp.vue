@@ -36,8 +36,9 @@ export default {
   align-items: center;
   justify-content: space-between;
   width: 80%;
+  height: 15vh;
   margin: 0 auto;
-  padding: 10px;
+  padding: 20px;
 }
 
 .img-style {
