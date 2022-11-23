@@ -3,18 +3,18 @@
     <div>
       <img class="img-style" src="../assets/img/dc-logo.png" alt="Logo DC">
     </div>
-    <div>
+    <div class="ul-cont-dim">
       <ul class="ul-list-flex">
-        <li class="list-style">characters</li>
-        <li class="list-style">comics</li>
-        <li class="list-style">movies</li>
-        <li class="list-style">tv</li>
-        <li class="list-style">games</li>
-        <li class="list-style">collectibles</li>
-        <li class="list-style">videos</li>
-        <li class="list-style">fans</li>
-        <li class="list-style">news</li>
-        <li class="list-style">shop</li>
+        <li class="list-style"><a>characters</a></li>
+        <li class="list-style"><a>comics</a></li>
+        <li class="list-style"><a>movies</a></li>
+        <li class="list-style"><a>tv</a></li>
+        <li class="list-style"><a>games</a></li>
+        <li class="list-style"><a>collectibles</a></li>
+        <li class="list-style"><a>videos</a></li>
+        <li class="list-style"><a>fans</a></li>
+        <li class="list-style"><a>news</a></li>
+        <li class="list-style"><a>shop</a></li>
       </ul>
     </div>
   </div>
@@ -38,22 +38,37 @@ export default {
   width: 80%;
   height: 15vh;
   margin: 0 auto;
-  padding: 20px;
+  
 }
 
 .img-style {
   width: 80%;
+  
+}
+
+.ul-cont-dim{
+  height: 100%;
+  
 }
 
 .ul-list-flex{
   display: flex;
+  height: 100%;
 }
 
 .list-style {
-  margin: 7px;
+  margin-right: 15px;
   font-size: 0.8rem;
   list-style: none;
   text-transform: uppercase;
   font-weight: bold;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.list-style :hover {
+  color: #0082F9;
+  border-bottom: 2px solid #0082F9;
 }
 </style>

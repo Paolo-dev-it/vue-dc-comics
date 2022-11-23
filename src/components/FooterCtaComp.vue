@@ -50,7 +50,14 @@
             text-transform: uppercase;
             font-weight: 600;
         }
+        
+        button:hover {
+            background-color: #0082F9;
+            border:1px solid #303030; ;
+        }
+                
     }
+        
 
     .ul-style {
         display: flex;
