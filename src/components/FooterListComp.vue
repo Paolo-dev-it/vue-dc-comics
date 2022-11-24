@@ -65,7 +65,6 @@
 <style lang="scss" scoped>
 .container {
         width: 100%;
-        
         padding: 30px;
         background-image: url('../assets/img/footer-bg.jpg');
     }
@@ -89,7 +88,7 @@
         li{
             color: gray;
             font-size: 0.7rem;
-            margin-top: 3px;
+            line-height: 20px;
         }
     }
 

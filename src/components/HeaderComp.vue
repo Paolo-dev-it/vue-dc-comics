@@ -7,7 +7,7 @@
       <ul class="ul-list-flex">
         <li class="list-style"><a>characters</a></li>
         <li class="list-style"><a>comics</a></li>
-        <li class="list-style"><a>movies</a></li>
+        <li class="list-style active"><a>movies</a></li>
         <li class="list-style"><a>tv</a></li>
         <li class="list-style"><a>games</a></li>
         <li class="list-style"><a>collectibles</a></li>
@@ -36,14 +36,12 @@ export default {
   align-items: center;
   justify-content: space-between;
   width: 80%;
-  padding: 20px;
+  padding: 10px;
   margin: 0 auto;
-  
 }
 
 .img-style {
   width: 80%;
-  
 }
 
 .ul-cont-dim{
@@ -54,21 +52,23 @@ export default {
 .ul-list-flex{
   display: flex;
   height: 100%;
+  gap: 15px;
 }
 
 .list-style {
-  margin-right: 15px;
+  
   font-size: 0.8rem;
   list-style: none;
   text-transform: uppercase;
   font-weight: bold;
   display: flex;
   align-items: center;
-  height: 100%;
+  padding: 35px 0px;
+  
 }
-
-.list-style :hover {
+.active {
   color: #0082F9;
   border-bottom: 2px solid #0082F9;
+  height: 100%;
 }
 </style>
