@@ -1,10 +1,7 @@
 <template>
-  <div class="container">
-    <div class="container-card">
-      <div>
-        <img :src="filmsDetails.thumb" alt="" />
-      </div>
-    </div>
+  <div class="card">
+    <img :src="filmsDetails.thumb" alt="" />
+    <h4>{{ filmsDetails.series }}</h4>
   </div>
 </template>
 
@@ -18,14 +15,18 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.container-card {
-  width: 80%;
-  margin: 0 auto;
-  display: flex;
-  background-color: black;
-}
+.card {
+  width: calc(100% / 6);
+  padding: 30px 0px;
+  text-align: center;
 
-.container {
-  background-color: black;
+  img {
+    width: 150px;
+    height: 150px;
+  }
+
+  h4 {
+    color: white;
+  }
 }
 </style>

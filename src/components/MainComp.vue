@@ -1,12 +1,19 @@
 <template>
   <div>
     <MainContentComp />
-    <div class="flex">
-      <MainImagesComp
-        v-for="(elem, index) in covers"
-        :key="index"
-        :filmsDetails="elem"
-      />
+    <div class="cont-flex">
+      <div class="btn-cont">
+        <button class="btn-pos">current series</button>
+      </div>
+
+      <div class="flex">
+        <MainImagesComp
+          v-for="(elem, index) in covers"
+          :key="index"
+          :filmsDetails="elem"
+        />
+        <button class="btn-2">load more</button>
+      </div>
     </div>
 
     <MainMenuComp />
@@ -119,10 +126,47 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.cont-flex {
+  width: 100%;
+  background-color: black;
+}
+
+.btn-cont {
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+  position: relative;
+}
+
+.btn-pos {
+  position: absolute;
+  z-index: 1;
+  top: -10px;
+  padding: 10px 40px;
+  background-color: #0082f9;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 900;
+  border: 0;
+  font-size: 0.9rem;
+}
 .flex {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   width: 80%;
   margin: auto;
+}
+
+.btn-2 {
+  display: flex;
+  padding: 10px 40px;
+  background-color: #0082f9;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 900;
+  border: 0;
+  font-size: 0.7rem;
+  margin-bottom: 10px;
 }
 </style>

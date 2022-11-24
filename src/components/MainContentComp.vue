@@ -26,16 +26,4 @@ export default {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-.container-card {
-  width: 80%;
-  margin: auto;
-  padding: 20px;
-  background-color: black;
-
-  img {
-    width: calc(100% / 6);
-    height: calc(100% / 2);
-  }
-}
 </style>
