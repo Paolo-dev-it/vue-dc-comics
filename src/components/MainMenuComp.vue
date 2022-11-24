@@ -38,7 +38,7 @@
 <style lang="scss" scoped>
 .cont-menu {
     width: 100%;
-    height: 20vh;
+   padding: 20px;
     z-index: 1;
     background-color: #0082F9;
     position: relative;

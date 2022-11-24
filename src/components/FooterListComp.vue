@@ -65,7 +65,7 @@
 <style lang="scss" scoped>
 .container {
         width: 100%;
-        height: 35vh;
+        
         padding: 30px;
         background-image: url('../assets/img/footer-bg.jpg');
     }

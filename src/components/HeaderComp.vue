@@ -36,7 +36,7 @@ export default {
   align-items: center;
   justify-content: space-between;
   width: 80%;
-  height: 15vh;
+  padding: 20px;
   margin: 0 auto;
   
 }
