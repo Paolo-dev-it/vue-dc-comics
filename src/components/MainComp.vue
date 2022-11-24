@@ -141,7 +141,7 @@ export default {
 .btn-pos {
   position: absolute;
   z-index: 1;
-  top: -10px;
+  top: -20px;
   padding: 10px 40px;
   background-color: #0082f9;
   color: white;
