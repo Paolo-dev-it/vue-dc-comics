@@ -12,6 +12,8 @@
           :key="index"
           :filmsDetails="elem"
         />
+      </div>
+      <div class="btn">
         <button class="btn-2">load more</button>
       </div>
     </div>
@@ -156,10 +158,16 @@ export default {
   flex-wrap: wrap;
   width: 80%;
   margin: auto;
+  gap: 10px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
 }
 
 .btn-2 {
-  display: flex;
+  text-align: center;
   padding: 10px 40px;
   background-color: #0082f9;
   color: white;
